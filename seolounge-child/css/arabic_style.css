@@ -1,0 +1,14 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;500;800&display=swap');
+*:not(.rs-layer-wrap):not(.ab-icon):not(.fa):not(.icofont){
+    font-family: 'Tajawal', sans-serif !important;
+}
+.wraper_header.style-twelve .nav > [class*="menu-"] > ul.menu > li > a{
+    
+}
+.rs-layer , .rs-layer-wrap{
+  left: 0!important;
+}
+.owl-carousel{
+ direction: ltr !important;
+}

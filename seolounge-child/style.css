@@ -1,0 +1,111 @@
+/*
+ Theme Name:   SEOLounge Child
+ Theme URI:    http://themes.radiantthemes.com/seolounge/
+ Description:  SEOLounge Child Theme
+ Author:       RadiantThemes.com
+ Author URI:   http://radiantthemes.com/
+ Template:     seolounge
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+ Text Domain:  seolounge-child
+*/
+
+a.btn{
+    border: 1px solid #4e28bc;
+    color: #4e28bc;
+    padding: 10px 30px;
+    border-radius: 24px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+}
+a.btn.active , a.btn:hover{
+    color: #fff;
+    background: #4e28bc;
+}
+
+.custom-user-register input[type=text], .custom-user-register input[type=email], .custom-user-register input[type=password] {
+    border: 1px #e0e0e0 solid;
+    height: 45px;
+    border-radius: 4px !important;
+}
+.custom-user-register button[type=submit]{
+    margin-right: auto;
+}
+.contact-us-cs7 {
+    background: #eee;
+    padding: 40px 10px;
+    border-radius: 10px;
+}
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: rotateX(0deg) translateY(0px);
+		transform: rotateX(0deg) translateY(0px)
+	}
+	50% {
+		-webkit-transform: rotateX(0deg) translateY(15px);
+		transform: rotateX(0deg) translateY(15px)
+	}
+	100% {
+		-webkit-transform: rotateX(0deg) translateY(0px);
+		transform: rotateX(0deg) translateY(0px)
+	}
+}
+
+@keyframes floating {
+	0% {
+		-webkit-transform: rotateX(0deg) translateY(0px);
+		transform: rotateX(0deg) translateY(0px)
+	}
+	50% {
+		-webkit-transform: rotateX(0deg) translateY(15px);
+		transform: rotateX(0deg) translateY(15px)
+	}
+	100% {
+		-webkit-transform: rotateX(0deg) translateY(0px);
+		transform: rotateX(0deg) translateY(0px)
+	}
+}
+.floating-div{
+    -webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+	animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+	-webkit-animation-name: floating;
+	animation-name: floating;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s
+}
+.email-footer{
+    display: inline-block !important;
+    width: 60% !important;
+    height: 40px !important;
+    border-radius: 20px 0px 0px 20px !important;
+}
+.submit-footer{
+    width: 40% !important;
+    background: #0abc5f !important;
+    color: #fff !important;
+    border-radius: 0px 20px 20px 0px !important;
+    height: 41px !important;
+    border: 1px solid #0abc5f !important;
+}
+
+#wpcf7-f5705-o2 .wpcf7-response-output{
+color: #fff;
+    background: #46b450;
+    font-weight: 500;
+}
+.clients.owl-carousel  .owl-item img {
+    filter: saturate(0.01);
+    animation-duration: 1s;
+    transition-duration: 1s;
+}
+.owl-carousel .owl-item img:hover {
+    filter: unset;
+}
+li.header-cart-bar {
+    display: none !important;
+}

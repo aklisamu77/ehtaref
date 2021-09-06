@@ -35,17 +35,14 @@ function show_login_signup_links_handler(){
 		$active_login = 'active';
 	else if ( $post->post_name=='registration')
 		$active_signup = 'active';
-		
-	return '<div class="row text-center">
-<div class="col-md-3  "></div>
-				<div class="col-md-3  ">
-					<a class="btn '.$active_login.'" href="https://ehtaref.com/my-account/">Login</a>
-				</div>
-				<div class="col-md-3  ">
-					<a class="btn '.$active_signup.'" href="https://ehtaref.com/registration/">Sign Up</a>
-				</div>
-				<div class="col-md-3  "></div>
-			</div><br>';
+  return get_template_part( 'template-parts/login_btns',
+                              null,
+                              array( 
+                                      'active_login' => $active_login,
+                                      'active_signup' => $active_signup,
+                                      
+                                      ) 
+        );
  
 }
 add_shortcode('login_count_width','login_count_width_handler');
